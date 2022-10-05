@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             // byte 0 to 255
-            
+            Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(byte.MaxValue);
             Console.WriteLine(byte.MinValue);
             //Short
@@ -26,7 +26,11 @@
             //ulong
             Console.WriteLine(ulong.MaxValue);
             Console.WriteLine(ulong.MinValue);
-
+            //bool true false.
+            //char ch="a"
+            //string str= "istedigin kadar yaz"
+            //DateTime date = new DateTime(); 
+            Console.WriteLine(DateTime.Today);
             Console.WriteLine("vamo espana");
         }
     }
